@@ -102,14 +102,12 @@ module.exports = CONFIG;
 小白开放平台是对应的管理后台，有些功能需要开通才可以使用。例如：
 
 首页广告插件：
-![](http://cdn7.okayapi.com/yesyesapi_20191210113622_a9c252f47dadc1c93a6477ca85cd56f0.png)
+![](http://cdn7.okayapi.com/yesyesapi_20191210113622_a9c252f47dadc1c93a6477ca85cd56f0.png)  
 
 新闻插件：
-![](http://cdn7.okayapi.com/yesyesapi_20191210113717_44c7caff3ec72f19a7877f7d96810895.png)
+![](http://cdn7.okayapi.com/yesyesapi_20191210113717_44c7caff3ec72f19a7877f7d96810895.png)  
 
 微信联合后的会员信息：
-![](http://cdn7.okayapi.com/yesyesapi_20191210113802_a022e451edd7b6a7a0f641d4197ffebd.png)
+![](http://cdn7.okayapi.com/yesyesapi_20191210113802_a022e451edd7b6a7a0f641d4197ffebd.png)  
 
-
-        if (res.statusCode == 200 && res.data.ret == 200) {
-        if (res.statusCode == 200 && res.data.ret == 200) {
+小白开放平台链接：http://open.yesapi.cn/
