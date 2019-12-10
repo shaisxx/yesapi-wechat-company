@@ -6,7 +6,7 @@ API接口（无须自己搭建服务器，可直接使用免费小白接口）
  
 ## 截图效果
 
-![](http://cdn7.okayapi.com/yesyesapi_20191210113042_1bbe410e11acf75243234b48c9fcd154.png)
+![效果](http://cdn7.okayapi.com/yesyesapi_20191210113042_1bbe410e11acf75243234b48c9fcd154.png)  
 
 ## 如何快速使用小白接口开发微信小程序
 
@@ -30,6 +30,7 @@ module.exports = CONFIG;
   onLoad: function () {
     var that = this;
 
+    // 获取广告
     wx.request({
       url: CONFIG.API_URL.GET_INDEX + "&s=App.Market_Adver.GetAdList",
       method: 'GET',
@@ -46,6 +47,7 @@ module.exports = CONFIG;
       }
     })
 
+    // 获取新闻
     wx.request({
       url: CONFIG.API_URL.GET_INDEX + "&s=App.Market_LastestNews.GetList&perpage=5",
       method: 'GET',
@@ -102,7 +104,7 @@ module.exports = CONFIG;
 小白开放平台是对应的管理后台，有些功能需要开通才可以使用。例如：
 
 首页广告插件：
-![](http://cdn7.okayapi.com/yesyesapi_20191210113622_a9c252f47dadc1c93a6477ca85cd56f0.png)  
+![图](http://cdn7.okayapi.com/yesyesapi_20191210113622_a9c252f47dadc1c93a6477ca85cd56f0.png)  
 
 新闻插件：
 ![](http://cdn7.okayapi.com/yesyesapi_20191210113717_44c7caff3ec72f19a7877f7d96810895.png)  
