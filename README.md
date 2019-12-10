@@ -1,4 +1,4 @@
-# wechat-company
+# yesapi-wechat-company
 微信小程序，企业展示。基于免费小白接口快速实现的企业展示微信小程序。
 
 API接口（无须自己搭建服务器，可直接使用免费小白接口）  
